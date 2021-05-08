@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25763" started-at="2021-05-08T12:26:18Z" finished-at="2021-05-08T12:26:43Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25763" started-at="2021-05-08T12:26:18Z" finished-at="2021-05-08T12:26:43Z">
+      <class name="com.banking.testcases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.banking.testcases.LoginTest@1f28c152]" name="setup" is-config="true" duration-ms="6199" started-at="2021-05-08T12:26:33Z" finished-at="2021-05-08T12:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.banking.testcases.LoginTest@1f28c152]" name="loginAsBankManager" duration-ms="2854" started-at="2021-05-08T12:26:39Z" finished-at="2021-05-08T12:26:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.banking.testcases.LoginTest@1f28c152]" name="tearDown" is-config="true" duration-ms="852" started-at="2021-05-08T12:26:43Z" finished-at="2021-05-08T12:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.banking.testcases.LoginTest -->
+      <class name="com.banking.testcases.AddNewCustomerTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.banking.testcases.AddNewCustomerTest@369f73a2]" name="setup" is-config="true" duration-ms="7331" started-at="2021-05-08T12:26:18Z" finished-at="2021-05-08T12:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.banking.testcases.AddNewCustomerTest@369f73a2]" name="addCustomer" duration-ms="5877" started-at="2021-05-08T12:26:26Z" data-provider="getData" finished-at="2021-05-08T12:26:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[baby]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10102000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Telangana]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9874512222]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[baby12@gmail.com]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[SJHHAS78]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.banking.testcases.AddNewCustomerTest@369f73a2]" name="tearDown" is-config="true" duration-ms="829" started-at="2021-05-08T12:26:32Z" finished-at="2021-05-08T12:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.banking.testcases.AddNewCustomerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

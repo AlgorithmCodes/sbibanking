@@ -1,0 +1,10 @@
+com\banking\rough\FormFill.class
+com\banking\rough\PropTest.class
+com\banking\listeners\CustomeListener.class
+com\banking\rough\DateSpl.class
+com\banking\base\BaseTest.class
+com\banking\testcases\LoginTest.class
+com\banking\testcases\AddNewCustomerTest.class
+com\banking\utilities\ReadExcelData.class
+com\banking\utilities\TakeScreenshot.class
+com\banking\utilities\Reporting.class
